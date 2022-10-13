@@ -8,11 +8,11 @@ import FooterBanner from '../../components/FooterBanner/FooterBanner';
 const Home = () => {
     return (
         <div>
-            <Header></Header>
-            <Banner></Banner>
-            <Button></Button>
-            <Card></Card>
-            <FooterBanner></FooterBanner>
+            <Header/>
+            <Banner/>
+            <Button label="button"/>
+            <Card title="" jokeText=""/>
+            <FooterBanner/>
         </div>
     );
 };
